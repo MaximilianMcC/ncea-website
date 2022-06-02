@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: #161926;
+  color: white;
+}
+
+header {
+  background-image: url("../assets/img/background-6.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: #FFB21C;
+}
+
+header .content {
+  padding-top: 100px;
+  text-align: center;
+  font-size: 2em;
+  color: white;
+}
+
+header svg {
+  margin-bottom: -10px;
+}
+
+header svg path {
+  fill: #161926;
+}
+
+main {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.audio {
+  background-color: #1E2337;
+  padding: 20px;
+  width: 30%;
+  border-radius: 10px;
+}
+
+.space-50 {
+  margin-top: 50px;
+}
+
+.space-100 {
+  margin-top: 100px;
+}
+
+.space-200 {
+  margin-top: 200px;
+}
+
+.space-250 {
+  margin-top: 250px;
+}
+
+.space-500 {
+  margin-top: 500px;
+}
+
+.middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.centre-text {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

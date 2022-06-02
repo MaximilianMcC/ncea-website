@@ -1,0 +1,75 @@
+// Color variables
+$main-background: #161926;
+$secondary-background: #1E2337;
+$accent-background: #FFB21C;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: $main-background;
+    color: white;
+}
+
+header {
+    background-image: url("../assets/img/background-6.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: $accent-background;
+
+    .content {
+        padding-top: 100px;
+        text-align: center;
+        font-size: 2em;
+        color: white;
+    }
+
+    svg {
+        margin-bottom: -10px;
+
+        path {
+            fill: $main-background;
+        }
+    }
+}
+
+main {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.audio {
+    background-color: $secondary-background;
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+}
+
+// Spacers
+//TODO: This might not be the best way to do this. Figure out another way
+.space {
+    &-50 {margin-top: 50px;}
+    &-100 {margin-top: 100px;}
+    &-200 {margin-top: 200px;}
+    &-250 {margin-top: 250px;}
+    &-500 {margin-top: 500px;}
+}
+
+// Middle
+.middle {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+// Middle text
+.centre-text {
+    text-align: center;
+}
