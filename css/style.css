@@ -46,6 +46,9 @@ button, a {
   font-size: 1.2em;
   font-weight: bold;
   text-decoration: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
   -webkit-transition: ease-in-out 0.5s;
   transition: ease-in-out 0.5s;
 }
@@ -128,6 +131,42 @@ footer svg {
 
 footer svg path {
   fill: #1E2337;
+}
+
+.notification-centre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  -webkit-transition: ease-in-out 1s;
+  transition: ease-in-out 1s;
+}
+
+.notification-centre button {
+  float: right;
+  width: 35px;
+  height: 35px;
+}
+
+.notification-centre .notification {
+  padding: 20px;
+  margin: 10px;
+  background-color: #FFB21C;
+  border-radius: 10px;
+  width: 40%;
+}
+
+.notification-centre .notification[level="good"] {
+  border-bottom: 10px solid limegreen;
+}
+
+.notification-centre .notification[level="bad"] {
+  border-bottom: 10px solid red;
 }
 
 .space-50 {

@@ -7,6 +7,7 @@ I will be using this GitHub repo to keep track of the development of my website.
 ## TODO
 1. [x] Add basic HTML and CSS
 1. [x] Make custom audio player
+1. [ ] Make a notification system
 1. [ ] Make site responsive for smaller screens
 1. [x] Make site responsive for medium screens
 1. [ ] make site responsive for larger screens

@@ -50,6 +50,9 @@ button, a{
     font-size: 1.2em;
     font-weight: bold;
     text-decoration: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
     transition: ease-in-out 0.5s;
 
     &:hover {
@@ -126,6 +129,32 @@ footer {
         path {
             fill: $secondary-background;
         }
+    }
+}
+
+.notification-centre {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    transition: ease-in-out 1s;
+
+    button {
+        float: right;
+        width: 35px;
+        height: 35px;
+    }
+
+    .notification {
+        padding: 20px;
+        margin: 10px;
+        background-color: $accent-background;
+        border-radius: 10px;
+        width: 40%;
+
+        &[level="good"] {border-bottom: 10px solid limegreen;} //! Not colorblind friendly but I don't think that it matters so I'm just leaving it
+        &[level="bad"] {border-bottom: 10px solid red;}
     }
 }
 

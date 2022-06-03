@@ -26,7 +26,39 @@ audioPlayPause.addEventListener("click", () => {
 
 // Change the audio volume
 audioPlayVolume.addEventListener("input", (e) => {
-
     audioPlayer.volume = e.target.value;
-
 });
+
+
+
+// Book something
+const bookButton = document.getElementsByClassName("#bookButton");
+
+
+
+
+// Notification manager
+const notificationContainer = document.querySelector(".notification-centre");
+const notification = document.querySelector(".notification");
+const notificationCloseButton = document.querySelector("#notificationCloseButton");
+
+function sendNotification(level, title, content) {
+    
+    // Make the notification
+    const notificationHtml = `
+    <div class="notification" level="${level}">
+        <button id="notificationCloseButton"><i class="fa-solid fa-circle-xmark"></i></button>
+        <h1>${title}</h1>
+        <p>${content}</p>
+    </div>
+    `
+    
+    // Add it to the DOM
+    notificationContainer.innerHTML = notificationHtml;
+    
+    // Add the close event listener
+    notificationCloseButton.addEventListener("click", (e) => {
+        console.log(0);
+        notificationContainer.removeChild(notification);
+    });
+}
