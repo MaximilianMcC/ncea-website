@@ -11,7 +11,7 @@ $accent-background: #FFB21C;
 }
 
 body {
-    height: 100vh;
+    height: 100%;
     background-color: $main-background;
     color: white;
 }
@@ -48,6 +48,18 @@ main {
     padding: 20px;
     width: 30%;
     border-radius: 10px;
+
+    button {
+        background-color: $accent-background;
+        color: white;
+        border-radius: 10px;
+        width: 40px;
+        height: 40px;
+    }
+
+    input {
+        width: 85%;
+    }
 }
 
 // Spacers
@@ -60,16 +72,10 @@ main {
     &-500 {margin-top: 500px;}
 }
 
-// Middle
 .middle {
     display: flex;
-    height: 100%;
     justify-content: center;
     align-items: center;
+    height: 100%;
     flex-direction: column;
-}
-
-// Middle text
-.centre-text {
-    text-align: center;
 }

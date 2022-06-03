@@ -13,12 +13,12 @@ audioPlayPause.addEventListener("click", () => {
     // Swap the positions and play/pause
     if (status === "pause") {
         audioPlayPause.setAttribute("currentState", "play");
-        audioPlayPause.innerHTML = "Pause";
+        audioPlayPause.innerHTML = '<i class="fa-solid fa-pause"></i>';
         audioPlayer.play();
     }
     else if (status === "play") {
         audioPlayPause.setAttribute("currentState", "pause");
-        audioPlayPause.innerHTML = "Play";
+        audioPlayPause.innerHTML = '<i class="fa-solid fa-play"></i>'
         audioPlayer.pause();
     }
 
