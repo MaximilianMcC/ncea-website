@@ -39,17 +39,18 @@ header svg path {
   fill: #161926;
 }
 
-button {
+button, a {
   background-color: #FFB21C;
   color: white;
   border-radius: 10px;
   font-size: 1.2em;
   font-weight: bold;
+  text-decoration: none;
   -webkit-transition: ease-in-out 0.5s;
   transition: ease-in-out 0.5s;
 }
 
-button:hover {
+button:hover, a:hover {
   background-color: #E9A113;
   -webkit-transform: scale(1.01);
           transform: scale(1.01);
@@ -71,6 +72,20 @@ button:hover {
   width: 85%;
 }
 
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.row a {
+  padding: 50px 100px;
+}
+
 .price-card {
   background-color: #1E2337;
   text-align: center;
@@ -85,7 +100,7 @@ button:hover {
 }
 
 .price-card button {
-  margin-top: 20px;
+  margin-top: 70px;
   padding: 20px 100px;
 }
 
@@ -134,6 +149,8 @@ button:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .split .half {

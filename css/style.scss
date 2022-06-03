@@ -43,12 +43,13 @@ header {
     }
 }
 
-button {
+button, a{
     background-color: $accent-background;
     color: white;
     border-radius: 10px;
     font-size: 1.2em;
     font-weight: bold;
+    text-decoration: none;
     transition: ease-in-out 0.5s;
 
     &:hover {
@@ -74,6 +75,16 @@ button {
     }
 }
 
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    a {
+        padding: 50px 100px;
+    }
+}
+
 .price-card {
     background-color: $secondary-background;
     text-align: center;
@@ -82,12 +93,10 @@ button {
     padding-top: 70px;
     padding-bottom: 70px;
 
-    h1 {
-        font-size: 3em;
-    }
+    h1 {font-size: 3em;}
 
     button {
-        margin-top: 20px;
+        margin-top: 70px;
         padding: 20px 100px;
     }
 }
@@ -120,6 +129,7 @@ button {
 //TODO: Maybe use Grid for this
 .split {
     display: flex;
+    flex-wrap: wrap;
 
     .half {flex: 50%;}
     .third {flex: 33.33%;}
