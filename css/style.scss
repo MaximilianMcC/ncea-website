@@ -102,6 +102,33 @@ button, a{
     }
 }
 
+footer {
+
+    .content {
+        background-color: $secondary-background;
+        text-align: center;
+        padding: 20px;
+    
+        a {
+            color: $accent-background;
+            background: none;
+    
+            &:hover {
+                color: white;
+                padding: 5px 15px;
+            }
+        }
+    }
+        
+    svg {
+        margin-bottom: -10px;
+
+        path {
+            fill: $secondary-background;
+        }
+    }
+}
+
 
 // --------------------- Helper styles --------------------- //
 
@@ -114,7 +141,7 @@ button, a{
     &-150 {margin-top: 150px;}
     &-200 {margin-top: 200px;}
     &-250 {margin-top: 250px;}
-    &-500 {margin-top: 500px;}
+    &-300 {margin-top: 300px;}
 }
 
 // Put everything in the middle of parent

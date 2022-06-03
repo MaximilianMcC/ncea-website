@@ -106,6 +106,30 @@ button:hover, a:hover {
   padding: 20px 100px;
 }
 
+footer .content {
+  background-color: #1E2337;
+  text-align: center;
+  padding: 20px;
+}
+
+footer .content a {
+  color: #FFB21C;
+  background: none;
+}
+
+footer .content a:hover {
+  color: white;
+  padding: 5px 15px;
+}
+
+footer svg {
+  margin-bottom: -10px;
+}
+
+footer svg path {
+  fill: #1E2337;
+}
+
 .space-50 {
   margin-top: 50px;
 }
@@ -126,8 +150,8 @@ button:hover, a:hover {
   margin-top: 250px;
 }
 
-.space-500 {
-  margin-top: 500px;
+.space-300 {
+  margin-top: 300px;
 }
 
 .middle {
