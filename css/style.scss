@@ -77,11 +77,12 @@ button, a{
 
 .row {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 
     a {
         padding: 50px 100px;
+        margin: 20px;
     }
 }
 
