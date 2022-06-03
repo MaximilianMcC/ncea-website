@@ -12,6 +12,11 @@ body {
   color: white;
 }
 
+main {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 header {
   background-image: url("../assets/img/background-6.jpg");
   background-size: cover;
@@ -34,9 +39,20 @@ header svg path {
   fill: #161926;
 }
 
-main {
-  margin-left: 10%;
-  margin-right: 10%;
+button {
+  background-color: #FFB21C;
+  color: white;
+  border-radius: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+}
+
+button:hover {
+  background-color: #E9A113;
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
 }
 
 .audio {
@@ -47,9 +63,6 @@ main {
 }
 
 .audio button {
-  background-color: #FFB21C;
-  color: white;
-  border-radius: 10px;
   width: 40px;
   height: 40px;
 }
@@ -58,12 +71,34 @@ main {
   width: 85%;
 }
 
+.price-card {
+  background-color: #1E2337;
+  text-align: center;
+  margin: 20px;
+  border-radius: 10px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.price-card h1 {
+  font-size: 3em;
+}
+
+.price-card button {
+  margin-top: 20px;
+  padding: 20px 100px;
+}
+
 .space-50 {
   margin-top: 50px;
 }
 
 .space-100 {
   margin-top: 100px;
+}
+
+.space-150 {
+  margin-top: 150px;
 }
 
 .space-200 {
@@ -93,5 +128,23 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.split {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.split .half {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+}
+
+.split .third {
+  -webkit-box-flex: 33.33%;
+      -ms-flex: 33.33%;
+          flex: 33.33%;
 }
 /*# sourceMappingURL=style.css.map */

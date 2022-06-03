@@ -16,6 +16,11 @@ body {
     color: white;
 }
 
+main {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 header {
     background-image: url("../assets/img/background-6.jpg");
     background-size: cover;
@@ -38,9 +43,19 @@ header {
     }
 }
 
-main {
-    margin-left: 10%;
-    margin-right: 10%;
+button {
+    background-color: $accent-background;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: ease-in-out 0.5s;
+
+    &:hover {
+        //TODO: Try to do this without manually putting the hex codes in
+        background-color: #E9A113;
+        transform: scale(1.01);
+    }
 }
 
 .audio {
@@ -50,9 +65,6 @@ main {
     border-radius: 10px;
 
     button {
-        background-color: $accent-background;
-        color: white;
-        border-radius: 10px;
         width: 40px;
         height: 40px;
     }
@@ -62,20 +74,53 @@ main {
     }
 }
 
+.price-card {
+    background-color: $secondary-background;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+    h1 {
+        font-size: 3em;
+    }
+
+    button {
+        margin-top: 20px;
+        padding: 20px 100px;
+    }
+}
+
+
+// --------------------- Helper styles --------------------- //
+
+
 // Spacers
 //TODO: This might not be the best way to do this. Figure out another way
 .space {
     &-50 {margin-top: 50px;}
     &-100 {margin-top: 100px;}
+    &-150 {margin-top: 150px;}
     &-200 {margin-top: 200px;}
     &-250 {margin-top: 250px;}
     &-500 {margin-top: 500px;}
 }
 
+// Put everything in the middle of parent
 .middle {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
     flex-direction: column;
+}
+
+// Divide the page into sections
+//TODO: Maybe use Grid for this
+.split {
+    display: flex;
+
+    .half {flex: 50%;}
+    .third {flex: 33.33%;}
 }
