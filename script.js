@@ -30,6 +30,20 @@ audioPlayVolume.addEventListener("input", (e) => {
 });
 
 
+// Book button
+const bookButton = document.querySelectorAll("#bookButton");
+
+// Add an event listener to all of the buttons
+bookButton.forEach(item => {
+    item.addEventListener("click", () => {
+
+        // Send notification because client doesn't know what to do yet.
+        sendNotification("bad", "Feature not added", "Sorry, this feature has not been added yet.");
+    })
+})
+
+
+
 
 // Notification manager
 const notificationContainer = document.querySelector(".notification-centre");
