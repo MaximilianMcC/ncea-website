@@ -210,6 +210,10 @@ footer svg path {
           flex-direction: column;
 }
 
+.centre-text {
+  text-align: center;
+}
+
 .split {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -31,16 +31,8 @@ audioPlayVolume.addEventListener("input", (e) => {
 
 
 
-// Book something
-const bookButton = document.getElementsByClassName("#bookButton");
-
-
-
-
 // Notification manager
 const notificationContainer = document.querySelector(".notification-centre");
-const notification = document.querySelector(".notification");
-const notificationCloseButton = document.querySelector("#notificationCloseButton");
 
 function sendNotification(level, title, content) {
     
@@ -52,13 +44,17 @@ function sendNotification(level, title, content) {
         <p>${content}</p>
     </div>
     `
-    
+
     // Add it to the DOM
     notificationContainer.innerHTML = notificationHtml;
-    
+
+    // Get newly created DOM elements
+    const notification = document.querySelector(".notification");
+    const notificationCloseButton = document.querySelector("#notificationCloseButton");
+
     // Add the close event listener
-    notificationCloseButton.addEventListener("click", (e) => {
-        console.log(0);
-        notificationContainer.removeChild(notification);
-    });
+    notificationCloseButton.addEventListener("click", () => {
+        notification.remove();
+    })
+    
 }
