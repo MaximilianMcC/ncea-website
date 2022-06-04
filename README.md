@@ -10,4 +10,3 @@ I will be using this GitHub repo to keep track of the development of my website.
 1. [x] Make a notification system
 1. [ ] Make site responsive for smaller screens
 1. [x] Make site responsive for medium screens
-1. [ ] make site responsive for larger screens

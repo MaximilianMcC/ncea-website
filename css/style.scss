@@ -65,6 +65,7 @@ button, a{
 .audio {
     background-color: $secondary-background;
     padding: 20px;
+    margin-top: 15px;
     width: 30%;
     border-radius: 10px;
 
@@ -192,4 +193,49 @@ footer {
 
     .half {flex: 50%;}
     .third {flex: 33.33%;}
+}
+
+
+
+
+// --------------------- Responsive styles --------------------- //
+
+// Phone and tablet
+@media (min-width: 375px) {
+
+    main {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .audio {
+        width: 100%;
+    }
+
+    .price-card button {
+        padding: 20px 70px;
+    }
+
+    .row a {
+        flex-basis: 100%;
+        text-align: center;
+    }
+}
+
+// Laptop and desktop
+@media (min-width: 1024px) {
+
+    main {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .row a {
+        flex-basis: max-content;
+    }
+
+    .audio {
+        width: 40%;
+    }
+
 }

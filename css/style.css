@@ -62,6 +62,7 @@ button:hover, a:hover {
 .audio {
   background-color: #1E2337;
   padding: 20px;
+  margin-top: 15px;
   width: 30%;
   border-radius: 10px;
 }
@@ -232,5 +233,37 @@ footer svg path {
   -webkit-box-flex: 33.33%;
       -ms-flex: 33.33%;
           flex: 33.33%;
+}
+
+@media (min-width: 375px) {
+  main {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .audio {
+    width: 100%;
+  }
+  .price-card button {
+    padding: 20px 70px;
+  }
+  .row a {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  main {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .row a {
+    -ms-flex-preferred-size: max-content;
+        flex-basis: max-content;
+  }
+  .audio {
+    width: 40%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
