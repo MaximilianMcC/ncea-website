@@ -15,7 +15,9 @@ I will be using this GitHub repo to keep track of the development of my website.
 
 ---
 ## Brief Spec
-My website is for a group called the Coatesville Collective. The purpose of this website is to help people know about the Coatesville Collective's music that they make. The site will include links that go to all of their different streaming platforms, some prices to hire them and information about the group.
+**Brief**
+The Coatesville Collective is a group that plays and creates music. The group was established in late 2021.
+**specifications**
 
 ## Design Tiles
 These are both of my design tiles. The client really liked them. In the future they have said that they want a light mode added so I have made a light and dark mode tile.
