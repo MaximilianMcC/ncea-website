@@ -16,7 +16,8 @@ I will be using this GitHub repo to keep track of the development of my website.
 ---
 ## Brief Spec
 **Brief**
-The Coatesville Collective is a group that plays and creates music. The group was established in late 2021. The best place to view them is on one of their live streams. You can also hire them to play somewhere
+The Coatesville Collective is a group that plays and creates music. The group was established in late 2021. The best place to view them is on one of their live streams. You can also hire them to play somewhere.
+**specifications**
 -Single page site
 -Cards showing prices of stuff
 -Simple design
