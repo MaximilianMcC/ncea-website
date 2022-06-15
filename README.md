@@ -42,6 +42,11 @@ After the feedback I made another version of the wireframe where I have added al
 I showed the new content to the client and they were really happy, however they asked for the layout to be more simple. I removed all of the lines that were seperating the different content sections, and changed the size of some stuff. This was the final design that they were happy with. They liked how simple the site was so that its easy for all types of people to use.
 ![Third wireframe](https://raw.githubusercontent.com/MaximilianMcC/ncea-website/main/other/Wireframe%203.png)
 
+## High fidelity
+This is both versions of my high fidelity. The client really liked the first one, however they said that the website looks a little "blocky" so I added some waves to the top of the header. They also thought that another title above the buttons would be good.
+![First high fidelity](https://raw.githubusercontent.com/MaximilianMcC/ncea-website/main/other/High%20fidelity%201.png)
+![Second high fidelity](https://raw.githubusercontent.com/MaximilianMcC/ncea-website/main/other/High%20fidelity%202.png)
+
 ---
 ## SKILLS FRIDAY🎉🎉
 
