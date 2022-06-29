@@ -8,6 +8,7 @@ const eventData = [
         "title": "Example Title",
         "information": "Example description filled with information",
         "location": "Long Bay College",
+        "price": "$999.99",
         "address": "30 Ashley Avenue, Long Bay, Auckland 0630"
     },
     {
@@ -15,6 +16,7 @@ const eventData = [
         "title": "Example Title",
         "information": "Example description filled with information",
         "location": "Long Bay College",
+        "price": "$999.99",
         "address": "30 Ashley Avenue, Long Bay, Auckland 0630"
     }
 
