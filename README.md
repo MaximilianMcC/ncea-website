@@ -5,6 +5,7 @@ I will be using this GitHub repo to keep track of the development of my website.
 
 ---
 ## TODO
+1. [ ] Create a user form
 1. [x] Make the design tiles
 1. [x] Make the wireframes
 1. [x] Add basic HTML and CSS
@@ -14,6 +15,9 @@ I will be using this GitHub repo to keep track of the development of my website.
 1. [x] Make site responsive for medium screens
 1. [ ] Get the text to put in the website from the client
 1. [ ] Replace the placeholder background image
+1. [ ] Make an events page
+1. [ ] Make a Google Maps embed in the events page
+1. [ ] Make the events added using a database in nodeJS
 
 ---
 ## Brief Spec
