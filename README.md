@@ -15,8 +15,8 @@ I will be using this GitHub repo to keep track of the development of my website.
 1. [x] Make site responsive for medium screens
 1. [ ] Get the text to put in the website from the client
 1. [ ] Replace the placeholder background image
-1. [ ] Make an events page
-1. [ ] Make a Google Maps embed in the events page
+1. [x] Make an events page
+1. [x] Make a Google Maps embed in the events page
 1. [ ] Make the events added using a database in nodeJS
 
 ---
