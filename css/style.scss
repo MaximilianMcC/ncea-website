@@ -159,6 +159,19 @@ footer {
     }
 }
 
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.event {
+    background-color: $secondary-background;
+    padding: 20px;
+    height: 100%;
+
+    .info {font-weight: bold;}
+}
+
 
 // --------------------- Helper styles --------------------- //
 
