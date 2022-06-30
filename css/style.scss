@@ -43,13 +43,15 @@ header {
     }
 }
 
-button, a{
+button, a {
     background-color: $accent-background;
     color: white;
+    background-color: #E9A113;
     border-radius: 10px;
     font-size: 1.2em;
     font-weight: bold;
     text-decoration: none;
+    padding: 10px 35px;
     outline: none;
     border: none;
     cursor: pointer;
@@ -72,6 +74,7 @@ button, a{
     button {
         width: 40px;
         height: 40px;
+        padding: 0;
     }
 
     input {
@@ -117,6 +120,7 @@ footer {
         a {
             color: $accent-background;
             background: none;
+            padding: 0;
     
             &:hover {
                 color: white;

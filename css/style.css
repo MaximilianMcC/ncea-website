@@ -42,10 +42,12 @@ header svg path {
 button, a {
   background-color: #FFB21C;
   color: white;
+  background-color: #E9A113;
   border-radius: 10px;
   font-size: 1.2em;
   font-weight: bold;
   text-decoration: none;
+  padding: 10px 35px;
   outline: none;
   border: none;
   cursor: pointer;
@@ -70,6 +72,7 @@ button:hover, a:hover {
 .audio button {
   width: 40px;
   height: 40px;
+  padding: 0;
 }
 
 .audio input {
@@ -120,6 +123,7 @@ footer .content {
 footer .content a {
   color: #FFB21C;
   background: none;
+  padding: 0;
 }
 
 footer .content a:hover {
