@@ -106,9 +106,10 @@ audio {
   border-radius: 10px;
   width: 100%;
   border-left: 10px solid #FFB21C;
-  margin-bottom: 50px;
+  margin: 50px;
 }
 .event iframe {
+  background-color: #161926;
   border-radius: 10px;
   width: 100%;
   height: 100%;
