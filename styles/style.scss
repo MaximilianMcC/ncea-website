@@ -43,8 +43,10 @@ main {
 // Consistency stuff between buttons and hyperlinks
 button, a {
     background-color: $accent-color;
+    color: white;
     text-decoration: none;
     cursor: pointer;
+
 
     &:hover {
         background-color: darken($accent-color, 10);
@@ -61,7 +63,6 @@ button, a {
     .audio-media-control {
         border: none;
         border-radius: 10px;
-        color: white;
         font-size: 2em;
         padding: 10px 200px;
     }
@@ -73,13 +74,34 @@ audio {display: none;}
 
 // Social cards
 .social-button {
-    color: white;
     font-weight: 800;
     font-size: 1.5em;
     padding: 60px 100px;
     margin: 10px;
     border-radius: 10px;
     flex: 1 1 0;
+}
+
+// Main product card things
+.card {
+    background-color: $background-color-secondary;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px;
+
+    h1 {
+        margin-top: 15px;
+        margin-bottom: 100px;
+        font-size: 5em;
+    }
+
+    a {
+        padding: 20px 100px;
+        border-radius: 10px;
+        display: inline-block;
+    }
 }
 
 

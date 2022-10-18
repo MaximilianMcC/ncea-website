@@ -33,6 +33,7 @@ main h1 {
 
 button, a {
   background-color: #FFB21C;
+  color: white;
   text-decoration: none;
   cursor: pointer;
 }
@@ -49,7 +50,6 @@ button:hover, a:hover {
 .audio-player .audio-media-control {
   border: none;
   border-radius: 10px;
-  color: white;
   font-size: 2em;
   padding: 10px 200px;
 }
@@ -59,13 +59,31 @@ audio {
 }
 
 .social-button {
-  color: white;
   font-weight: 800;
   font-size: 1.5em;
   padding: 60px 100px;
   margin: 10px;
   border-radius: 10px;
   flex: 1 1 0;
+}
+
+.card {
+  background-color: #1E2337;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  margin: 10px;
+}
+.card h1 {
+  margin-top: 15px;
+  margin-bottom: 100px;
+  font-size: 5em;
+}
+.card a {
+  padding: 20px 100px;
+  border-radius: 10px;
+  display: inline-block;
 }
 
 .gallery {
