@@ -164,7 +164,10 @@ path.green {
 }
 
 @media only screen and (max-width: 600px) {
-  body {
-    background-color: green;
+  header {
+    font-size: 0.5em;
+  }
+  main {
+    margin: 0 10%;
   }
 }/*# sourceMappingURL=style.css.map */

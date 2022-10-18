@@ -4,77 +4,77 @@ $background-color-secondary: #1E2337;
 $accent-color: #FFB21C;
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
-    height: 100vh;
-    font-family: 'Poppins', sans-serif;
-    background-color: $background-color;
-    color: white;
+	height: 100vh;
+	font-family: 'Poppins', sans-serif;
+	background-color: $background-color;
+	color: white;
 }
 
 
 // Header
 header {
-    background-color: $accent-color;
-    background-image: url("../assets/img/header.webp");
-    background-position: center;
-    background-size: cover;
+	background-color: $accent-color;
+	background-image: url("../assets/img/header.webp");
+	background-position: center;
+	background-size: cover;
 
-    .content {
-        padding-top: 100px;
-        font-size: 2.5em;
-        text-align: center;
-    }
+	.content {
+		padding-top: 100px;
+		font-size: 2.5em;
+		text-align: center;
+	}
 }
 
 // Footer
 footer {
-    margin-top: 200px;
+	margin-top: 200px;
 
-    .content {
-        background-color: $background-color-secondary;
-        padding: 50px;
-        text-align: center;
-    }
+	.content {
+		background-color: $background-color-secondary;
+		padding: 50px;
+		text-align: center;
+	}
 }
 
 // Main website content
 main {
-    margin: 0 20%;
-    font-size: 1.2em;
+	margin: 0 20%;
+	font-size: 1.2em;
 
-    h1 {font-size: 2em;}
+	h1 {font-size: 2em;}
 }
 
 // Consistency stuff between buttons and hyperlinks
 button, a {
-    background-color: $accent-color;
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
+	background-color: $accent-color;
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
 
-    &:hover {
-        background-color: darken($accent-color, 10);
-    }
+	&:hover {
+		background-color: darken($accent-color, 10);
+	}
 }
 
 // Custom audio player
 .audio-player {
-    width: 80%;
-    background-color: $background-color-secondary;
-    padding: 20px;
-    border-radius: 10px;
+	width: 80%;
+	background-color: $background-color-secondary;
+	padding: 20px;
+	border-radius: 10px;
 
-    .audio-media-control {
-        border: none;
-        border-radius: 10px;
-        font-size: 2em;
-        padding: 10px 200px;
-    }
+	.audio-media-control {
+		border: none;
+		border-radius: 10px;
+		font-size: 2em;
+		padding: 10px 200px;
+	}
 }
 
 // Hide the default audio player
@@ -83,57 +83,57 @@ audio {display: none;}
 
 // Social cards
 .social-button {
-    font-weight: 800;
-    font-size: 1.5em;
-    padding: 60px 100px;
-    margin: 10px;
-    border-radius: 10px;
-    flex: 1 1 0;
+	font-weight: 800;
+	font-size: 1.5em;
+	padding: 60px 100px;
+	margin: 10px;
+	border-radius: 10px;
+	flex: 1 1 0;
 }
 
 // Main product card things
 .card {
-    background-color: $background-color-secondary;
-    text-align: center;
-    padding: 20px;
-    border-radius: 10px;
-    width: 100%;
-    margin: 10px;
+	background-color: $background-color-secondary;
+	text-align: center;
+	padding: 20px;
+	border-radius: 10px;
+	width: 100%;
+	margin: 10px;
 
-    h1 {
-        margin-top: 15px;
-        margin-bottom: 100px;
-        font-size: 5em;
-    }
+	h1 {
+		margin-top: 15px;
+		margin-bottom: 100px;
+		font-size: 5em;
+	}
 
-    a {
-        padding: 20px 100px;
-        border-radius: 10px;
-        display: inline-block;
-    }
+	a {
+		padding: 20px 100px;
+		border-radius: 10px;
+		display: inline-block;
+	}
 }
 
 // Button
 .button {
-    padding: 20px 100px;
-    border-radius: 10px;
+	padding: 20px 100px;
+	border-radius: 10px;
 }
 
 // Event
 .event {
-    background-color: $background-color-secondary;
-    padding: 20px;
-    border-radius: 10px;
-    width: 100%;
-    border-left: 10px solid $accent-color;
-    margin: 50px;
+	background-color: $background-color-secondary;
+	padding: 20px;
+	border-radius: 10px;
+	width: 100%;
+	border-left: 10px solid $accent-color;
+	margin: 50px;
 
-    iframe {
-        background-color: $background-color;
-        border-radius: 10px;
-        width: 100%;
-        height: 100%;
-    }
+	iframe {
+		background-color: $background-color;
+		border-radius: 10px;
+		width: 100%;
+		height: 100%;
+	}
 }
 
 
@@ -143,8 +143,8 @@ audio {display: none;}
 
 // Flexbox gallery of items
 .gallery {
-    display: flex;
-    justify-content: space-evenly;
+	display: flex;
+	justify-content: space-evenly;
 }
 
 
@@ -152,14 +152,14 @@ audio {display: none;}
 //! It's bad practise to use empty div, but in this case seems ok
 //TODO: Get a more "modern" way of doing this
 .space {
-    &-100 {margin-top: 100px;}
-    &-150 {margin-top: 150px;}
-    &-200 {margin-top: 200px;}
+	&-100 {margin-top: 100px;}
+	&-150 {margin-top: 150px;}
+	&-200 {margin-top: 200px;}
 }
 
 // SVG waves stuff
 svg {
-    margin-bottom: -10px;
+	margin-bottom: -10px;
 }
 path.background {fill: $background-color;}
 path.background-secondary {fill: $background-color-secondary;}
@@ -168,31 +168,49 @@ path.green {fill: green;}
 
 // Place content in the middle of a element
 .middle {
-    display: flex;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    flex-wrap: wrap;
+	display: flex;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+	flex-wrap: wrap;
 }
 
 // Split a div into two sections
 .split {
-    display: flex;
+	display: flex;
 
-    .half {flex: 50%;}
+	.half {flex: 50%;}
 }
 
 
 
 
 
-// Media queries
+
+
+
+
+
+
+
+
+
+
+
+
+// Media queries for phone
 @media only screen and (max-width: 600px) {
 
-    body {
-        background-color: green;
-    }
+	// Adjust header size
+	header {
+		font-size: 0.5em;
+	}
+
+	// Adjust main website margin
+	main {
+		margin: 0 10%;
+	}
 
 }
