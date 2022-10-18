@@ -46,6 +46,10 @@ main h1 {
   padding: 10px 200px;
 }
 
+audio {
+  display: none;
+}
+
 .space-100 {
   margin-top: 100px;
 }

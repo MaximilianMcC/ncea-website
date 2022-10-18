@@ -59,6 +59,9 @@ main {
     }
 }
 
+// Hide the default audio player
+audio {display: none;}
+
 
 // Make space inbetween sections of code
 //! It's bad practise to use empty div, but in this case seems ok
