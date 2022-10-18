@@ -70,6 +70,7 @@ audio {
 .social-button {
   font-weight: 800;
   font-size: 1.5em;
+  text-align: center;
   padding: 60px 100px;
   margin: 10px;
   border-radius: 10px;
