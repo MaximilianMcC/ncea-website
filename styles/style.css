@@ -170,4 +170,7 @@ path.green {
   main {
     margin: 0 10%;
   }
+  .gallery {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=style.css.map */

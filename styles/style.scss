@@ -213,4 +213,9 @@ path.green {fill: green;}
 		margin: 0 10%;
 	}
 
+	// Stack stuff that were in rows
+	.gallery {
+		flex-direction: column;
+	}
+
 }
