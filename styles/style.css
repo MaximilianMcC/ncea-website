@@ -100,6 +100,20 @@ audio {
   border-radius: 10px;
 }
 
+.event {
+  background-color: #1E2337;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  border-left: 10px solid #FFB21C;
+  margin-bottom: 50px;
+}
+.event iframe {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
 .gallery {
   display: flex;
   justify-content: space-evenly;
@@ -139,4 +153,11 @@ path.green {
   text-align: center;
   flex-direction: column;
   flex-wrap: wrap;
+}
+
+.split {
+  display: flex;
+}
+.split .half {
+  flex: 50%;
 }/*# sourceMappingURL=style.css.map */
