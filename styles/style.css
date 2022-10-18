@@ -161,4 +161,10 @@ path.green {
 }
 .split .half {
   flex: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: green;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -33,7 +33,6 @@ header {
 
 // Footer
 footer {
-    
     margin-top: 200px;
 
     .content {
@@ -57,7 +56,6 @@ button, a {
     color: white;
     text-decoration: none;
     cursor: pointer;
-
 
     &:hover {
         background-color: darken($accent-color, 10);
@@ -184,4 +182,17 @@ path.green {fill: green;}
     display: flex;
 
     .half {flex: 50%;}
+}
+
+
+
+
+
+// Media queries
+@media only screen and (max-width: 600px) {
+
+    body {
+        background-color: green;
+    }
+
 }
