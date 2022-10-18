@@ -1,3 +1,8 @@
+// Main website colors
+$background-color: #161926;
+$background-color-secondary: #1E2337;
+$accent-color: #FFB21C;
+
 * {
     margin: 0;
     padding: 0;
@@ -7,14 +12,35 @@
 body {
     height: 100vh;
     font-family: 'Poppins', sans-serif;
+    background-color: $background-color;
+    color: white;
+}
+
+
+// Header
+header {
+    background-color: $accent-color;
+    background-image: url("../assets/img/header.webp");
+    background-position: center;
+    background-size: cover;
+
+    .content {
+        padding-top: 100px;
+        font-size: 2.5em;
+        text-align: center;
+    }
 }
 
 
 
+// SVG waves stuff
+svg {
+    margin-bottom: -10px;
 
-
-
-
+    path {
+        fill: $background-color;
+    }
+}
 
 // Place content in the middle of a element
 .middle {

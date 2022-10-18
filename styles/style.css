@@ -6,6 +6,28 @@
 
 body {
   height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background-color: #161926;
+  color: white;
+}
+
+header {
+  background-color: #FFB21C;
+  background-image: url("../assets/img/header.webp");
+  background-position: center;
+  background-size: cover;
+}
+header .content {
+  padding-top: 100px;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+svg {
+  margin-bottom: -10px;
+}
+svg path {
+  fill: #161926;
 }
 
 .middle {
