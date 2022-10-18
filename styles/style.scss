@@ -42,6 +42,32 @@ main {
 
 
 
+// Custom audio player
+.audio-player {
+    width: 80%;
+    background-color: $background-color-secondary;
+    padding: 20px;
+    border-radius: 10px;
+
+    .audio-media-control {
+        background-color: $accent-color;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        font-size: 2em;
+        padding: 10px 200px;
+    }
+}
+
+
+// Make space inbetween sections of code
+//! It's bad practise to use empty div, but in this case seems ok
+//TODO: Get a more "modern" way of doing this
+.space {
+    &-100 {margin-top: 100px;}
+    &-150 {margin-top: 150px;}
+    &-200 {margin-top: 200px;}
+}
 
 // SVG waves stuff
 svg {
