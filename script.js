@@ -6,7 +6,6 @@ audioPlayerButton.addEventListener("click", () => {
 
     // Get the current state of the player
     const state = audioPlayerButton.getAttribute("state");
-    console.log(state);
     
     // Check for what the state is
     if (state === "paused") {
