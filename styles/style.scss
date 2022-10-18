@@ -40,7 +40,16 @@ main {
     h1 {font-size: 2em;}
 }
 
+// Consistency stuff between buttons and hyperlinks
+button, a {
+    background-color: $accent-color;
+    text-decoration: none;
+    cursor: pointer;
 
+    &:hover {
+        background-color: darken($accent-color, 10);
+    }
+}
 
 // Custom audio player
 .audio-player {
@@ -50,7 +59,6 @@ main {
     border-radius: 10px;
 
     .audio-media-control {
-        background-color: $accent-color;
         border: none;
         border-radius: 10px;
         color: white;
@@ -61,6 +69,27 @@ main {
 
 // Hide the default audio player
 audio {display: none;}
+
+
+// Social cards
+.social-button {
+    color: white;
+    font-weight: 800;
+    font-size: 1.5em;
+    padding: 60px 100px;
+    margin: 10px;
+    border-radius: 10px;
+    flex: 1 1 0;
+}
+
+
+
+
+// Flexbox gallery of items
+.gallery {
+    display: flex;
+    justify-content: space-evenly;
+}
 
 
 // Make space inbetween sections of code

@@ -31,6 +31,15 @@ main h1 {
   font-size: 2em;
 }
 
+button, a {
+  background-color: #FFB21C;
+  text-decoration: none;
+  cursor: pointer;
+}
+button:hover, a:hover {
+  background-color: #e89900;
+}
+
 .audio-player {
   width: 80%;
   background-color: #1E2337;
@@ -38,7 +47,6 @@ main h1 {
   border-radius: 10px;
 }
 .audio-player .audio-media-control {
-  background-color: #FFB21C;
   border: none;
   border-radius: 10px;
   color: white;
@@ -48,6 +56,21 @@ main h1 {
 
 audio {
   display: none;
+}
+
+.social-button {
+  color: white;
+  font-weight: 800;
+  font-size: 1.5em;
+  padding: 60px 100px;
+  margin: 10px;
+  border-radius: 10px;
+  flex: 1 1 0;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .space-100 {
