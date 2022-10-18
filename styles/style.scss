@@ -31,6 +31,17 @@ header {
     }
 }
 
+// Footer
+footer {
+    
+    margin-top: 200px;
+
+    .content {
+        background-color: $background-color-secondary;
+        padding: 50px;
+        text-align: center;
+    }
+}
 
 // Main website content
 main {
@@ -126,11 +137,11 @@ audio {display: none;}
 // SVG waves stuff
 svg {
     margin-bottom: -10px;
-
-    path {
-        fill: $background-color;
-    }
 }
+path.background {fill: $background-color;}
+path.background-secondary {fill: $background-color-secondary;}
+path.green {fill: green;}
+
 
 // Place content in the middle of a element
 .middle {

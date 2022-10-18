@@ -23,6 +23,15 @@ header .content {
   text-align: center;
 }
 
+footer {
+  margin-top: 200px;
+}
+footer .content {
+  background-color: #1E2337;
+  padding: 50px;
+  text-align: center;
+}
+
 main {
   margin: 0 20%;
   font-size: 1.2em;
@@ -104,8 +113,17 @@ audio {
 svg {
   margin-bottom: -10px;
 }
-svg path {
+
+path.background {
   fill: #161926;
+}
+
+path.background-secondary {
+  fill: #1E2337;
+}
+
+path.green {
+  fill: green;
 }
 
 .middle {
