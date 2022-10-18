@@ -73,7 +73,7 @@ button, a {
 		border: none;
 		border-radius: 10px;
 		font-size: 2em;
-		padding: 10px 200px;
+		padding: 1% 21%;
 	}
 }
 
@@ -219,4 +219,12 @@ path.green {fill: green;}
 		flex-direction: column;
 	}
 
+	// Fix spacings on button and background
+	.audio-player {
+		width: 100%;
+
+		button {
+
+		}
+	}
 }

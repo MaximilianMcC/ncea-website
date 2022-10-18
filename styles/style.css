@@ -60,7 +60,7 @@ button:hover, a:hover {
   border: none;
   border-radius: 10px;
   font-size: 2em;
-  padding: 10px 200px;
+  padding: 1% 21%;
 }
 
 audio {
@@ -173,5 +173,8 @@ path.green {
   }
   .gallery {
     flex-direction: column;
+  }
+  .audio-player {
+    width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
