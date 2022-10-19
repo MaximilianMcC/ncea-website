@@ -30,3 +30,8 @@
 - [ ] Code validation for `index.html`
 - [ ] Code validation for `events.html`
 - [ ] Final evaluation - Say how information from the planning, testing, and trialing of components helped develop a high quality outcome
+
+
+
+## What is Iterative improvement?
+Iterative improvement is when someone is constantly documenting and recording their interactions with the project. An example of this is adjusting or adding new features and then getting feedback from the client and stakeholders. With this feedback improvements on the work can be made. This process allows both sides to know what work they are doing, what work has been done, and how said work has been done at all times. The main way that this is shown is through trialing and testing. In a real world work environment, after each iteration the code would be pushed to some sort of version control system, such as GitHub, for review. Iterative improvement helps to create a better end-product. 
