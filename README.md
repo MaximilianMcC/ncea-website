@@ -15,7 +15,7 @@
 
 **Written Work**
 - [X] What is iterative improvement?
-- [ ] Relevant implications - describe and explain
+- [x] Relevant implications
 - [x] Web design tools - Which and why?
 - [ ] Site broken down into components/tasks
 - [ ] Version 1 of gantt chart
@@ -36,6 +36,13 @@
 ## What is Iterative improvement?
 Iterative improvement is when someone is constantly documenting and recording their interactions with the project. An example of this is adjusting or adding new features and then getting feedback from the client and stakeholders. With this feedback improvements on the work can be made. This process allows both sides to know what work they are doing, what work has been done, and how said work has been done at all times. The main way that this is shown is through trialing and testing. In a real world work environment, after each iteration the code would be pushed to some sort of version control system, such as GitHub, for review. Iterative improvement helps to create a better end-product.
 
+# Relevant implications
+### **Legal**
+Legal implications state who owns a particular piece of media and how that media can be interacted with by people who don’t own the media. One way of figuring out if media is legal is to use copyrighting. If something is copyrighted, then there are specific rules about who can use it. Permissions may need to be given, or the user could potentially be arrested or fined. In the case of this website everything is copyright free, except for the media used in testing. If media is being used for educational purposes, it is allowed to be used without direct consent from the respected owner.
+
+
+### **Aesthetics**
+This website has been designed with aesthetics in mind. Aesthetics implications are the look and feel of the website. The design was created from the client looking at many different sites and picking out certain elements that they liked the look of. For example, they might like the font that was used in a site or the layout of images. With each change I made I asked the client if they were happy and what changes were needed to be made. The overall design of the website is very clean and simple. There is frequent use of dark colors and small clusters of the eye-catching orange accent colors. SVG waves are used to make the user feel more relaxed and calmer. The website has been designed so that any person of any age can confidently use the site without any issues.
 
 
 # Web Design Tools
