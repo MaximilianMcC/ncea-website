@@ -107,7 +107,7 @@ audio {
   border-radius: 10px;
   width: 100%;
   border-left: 10px solid #FFB21C;
-  margin: 50px;
+  margin-top: 50px;
 }
 .event iframe {
   background-color: #161926;
