@@ -171,7 +171,7 @@ path.green {
   main {
     margin: 0 10%;
   }
-  .gallery {
+  .gallery, .split {
     flex-direction: column;
   }
   .audio-player {

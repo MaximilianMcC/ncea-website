@@ -215,7 +215,7 @@ path.green {fill: green;}
 	}
 
 	// Stack stuff that were in rows
-	.gallery {
+	.gallery, .split {
 		flex-direction: column;
 	}
 
