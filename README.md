@@ -16,7 +16,7 @@
 **Written Work**
 - [X] What is iterative improvement?
 - [ ] Relevant implications - describe and explain
-- [ ] Web design tools - Which and why?
+- [x] Web design tools - Which and why?
 - [ ] Site broken down into components/tasks
 - [ ] Version 1 of gantt chart
 - [ ] Version 2 of gantt chart
