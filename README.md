@@ -70,3 +70,31 @@ Here is a table showing the pros and cons of different IDEs.
 | You can write any language with it | You can write any language with it | You can write any language with it | You can write any language with it  |
 | Thousands of extensions            | Thousands of extensions            | Thousands of extensions            | Very few extensions                 |
 | Always free                        | Free version available             | Always free                        | Always free                         |
+
+## Site broken down into components/tasks
+- [x] Make boilerplate HTML and SCSS
+- [x] Make header HTML
+- [x] Make header SVG wave
+- [x] Make header SCSS
+- [x] Make main content SCSS
+- [x] Make information text HTML
+- [x] Make information text SCSS
+- [x] Make events page link HTML
+- [x] Make events page link SCSS
+- [x] Make audio player HTML
+- [x] Make audio player SCSS
+- [x] Get audio player music
+- [x] Make audio player JS
+- [x] Make social buttons HTML
+- [x] Make social buttons SCSS
+- [x] Make cards HTML
+- [x] Make cards SCSS
+- [x] Make footer HTML
+- [x] Make footer SVG wave
+- [x] Make footer SCSS
+- [x] 
+- [x] 
+- [x] 
+- [x] 
+- [x] 
+- [x] 
