@@ -42,14 +42,14 @@ Iterative improvement is when someone is constantly documenting and recording th
 This is a list of tools that I will be using to create my website. I'm not gonna include pictures and audio as these are currently just placeholders.
 
 Here is the list of tools that I'm gonna use
-| **Tool**  | **Tool name**      |
-|:---------:|:------------------:|
-| IDE       | [Visual Studio Code](https://code.visualstudio.com/) |
-| Terminal  | [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=en-nz&gl=nz) |
-| Version Control | [GitHub](https://github.com/) |
-| Version Control Software | [Git](https://git-scm.com/download/win) |
-| SVG Waves | [Haikei](https://app.haikei.app/) |
-| Web Browser | [Microsoft Edge](https://www.microsoft.com/en-us/edge) |
+| **Tool**  | **Tool name**      | **Why I'm using it** |
+|:---------:|:------------------:|:--------------------:|
+| IDE       | [Visual Studio Code](https://code.visualstudio.com/) | Industry standard IDE and I have been using for 3+ years
+| Terminal  | [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=en-nz&gl=nz) With Powershell | Looks nice |
+| Version Control | [GitHub](https://github.com/) | Industry standard |
+| Version Control Software | [Git](https://git-scm.com/download/win) | Industry standard |
+| SVG Waves | [Haikei](https://app.haikei.app/) | Very easy to use and produces quality output |
+| Web Browser | [Microsoft Edge](https://www.microsoft.com/en-us/edge) | Looks nice has has nice developer tools |
 
 Here is a table showing the pros and cons of different IDEs.
 |       **Visual Studio Code**       |       **Visual Studio 2022**       |              **Atom**              |            **Notepad++**            |
