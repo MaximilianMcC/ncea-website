@@ -98,4 +98,4 @@ Here is a table showing the pros and cons of different IDEs.
 - [x] Make events SCSS
 - [x] Make events in JS object
 - [x] Make events in JS
-- [x] Mak everything responsive
+- [x] Make everything responsive
