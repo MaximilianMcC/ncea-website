@@ -17,7 +17,7 @@
 - [X] What is iterative improvement?
 - [x] Relevant implications
 - [x] Web design tools - Which and why?
-- [ ] Site broken down into components/tasks
+- [x] Site broken down into components/tasks
 - [ ] Version 1 of gantt chart
 - [ ] Version 2 of gantt chart
 - [ ] Version 3 of gantt chart
