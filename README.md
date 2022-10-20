@@ -92,9 +92,10 @@ Here is a table showing the pros and cons of different IDEs.
 - [x] Make footer HTML
 - [x] Make footer SVG wave
 - [x] Make footer SCSS
-- [x] 
-- [x] 
-- [x] 
-- [x] 
-- [x] 
-- [x] 
+- [x] Make events page
+- [x] Make events HTML
+- [x] Make events HTML plan
+- [x] Make events SCSS
+- [x] Make events in JS object
+- [x] Make events in JS
+- [x] Mak everything responsive
