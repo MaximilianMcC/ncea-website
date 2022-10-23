@@ -4,6 +4,8 @@
 
 **You can view the development version of this website [Here](https://maximilianmcc.github.io/ncea-website/).**
 
+Everything that's in the `other` directory is just screenshots and stuff for this readme. None of it is related to the actual code or website.
+
 
 ## Project Outline
 **Coding**
@@ -18,7 +20,7 @@
 - [x] Relevant implications
 - [x] Web design tools - Which and why?
 - [x] Site broken down into components/tasks
-- [ ] Version 1 of gantt chart
+- [x] Version 1 of gantt chart
 - [ ] Version 2 of gantt chart
 - [ ] Version 3 of gantt chart
 - [ ] Gantt chart revisions and explanations
@@ -99,3 +101,16 @@ Here is a table showing the pros and cons of different IDEs.
 - [x] Make events in JS object
 - [x] Make events in JS
 - [x] Make everything responsive
+
+# First gantt chart iteration
+Here is my first gantt chart iteration. This was made before I started to make the website. I split everything up into components like the ones above and I allocated one hour of time to each "section". I knew that I would not use the entire hour for many things, but just incase there was some problems I allocated an entire hour.
+
+When you look at the gantt chart then you will see some different colors. The table below will explain what each color is.
+| **Color**  | **Thing** |
+|:----------:|:---------:|
+| None | Break/nothing |
+| Orange | HTML |
+| Pink | SCSS |
+| Yellow | JS |
+
+<!-- ![First gantt chart]() -->
