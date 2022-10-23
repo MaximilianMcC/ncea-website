@@ -113,4 +113,4 @@ When you look at the gantt chart then you will see some different colors. The ta
 | Pink | SCSS |
 | Yellow | JS |
 
-<!-- ![First gantt chart]() -->
+![First gantt chart](https://github.com/MaximilianMcC/ncea-website/blob/main/other/GanttChart1.png?raw=true)
