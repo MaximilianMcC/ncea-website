@@ -23,11 +23,10 @@ Everything that's in the `other` directory is just screenshots and stuff for thi
 - [x] Version 1 of gantt chart
 - [x] Version 2 of gantt chart
 - [x] Version 3 of gantt chart
-- [ ] Gantt chart revisions and explanations
+- [x] Gantt chart revisions and explanations
 - [ ] Trial multiple components
 - [ ] Stakeholder feedback and improvements
 - [ ] Usability and improvement
-- [ ] *"Test plan- under "sample tests" in OneNote"* ??? idk what this means
 - [ ] Relevant implications - How have you addressed them?
 - [ ] Code validation for `index.html`
 - [ ] Code validation for `events.html`
