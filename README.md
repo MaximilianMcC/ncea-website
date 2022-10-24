@@ -125,7 +125,7 @@ Here is the third and final iteration of my gantt chart. This one has the correc
 
 # Component Trialing
 Below is a table showing the different components that I trialed when making my website. Trialing is when you look at possible solutions of a problem, then select the best one that works for your specific needs.
-| **Trial**  | **Thing that I'm trialing** | **First trial** | **Second trial** | **Final result** |
+| **Trial**  | **Thing that I'm trialing** | **First trial** | **Second trial** | **Third/Final result** |
 |:----------:|:---------------------------:|:---------------:|:----------------:|:----------------:|
 | 1          | Play and pause audio icons | Just having normal text can be boring and isn't really the standard. ![Trialing evidence 1](https://raw.githubusercontent.com/MaximilianMcC/ncea-website/main/other/Trial1%201.png) | Using these icons may look good, but it's really bad practice. For example someone could be on a device that hasn't got those characters. ![Trialing evidence 1](https://raw.githubusercontent.com/MaximilianMcC/ncea-website/main/other/Trial1%202.png) | fa icons fit in with my UI. They were quick and easy to integrate using a CDN ![Trialing evidence 1](https://raw.githubusercontent.com/MaximilianMcC/ncea-website/main/other/Trial1%203.png) | 
 | 2          | Generate events  | Hand writing in all of the events as HTML is time consuming and can't be automated. ![Trialing evidence 2](https://raw.githubusercontent.com/MaximilianMcC/ncea-website/main/other/Trial2%201.png) | | Generating the events from JS is much better as the object can be sent over as JSON from a server ![Trialing evidence 2](https://raw.githubusercontent.com/MaximilianMcC/ncea-website/main/other/Trial2%202.png) |
