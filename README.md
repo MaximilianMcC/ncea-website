@@ -24,7 +24,7 @@ Everything that's in the `other` directory is just screenshots and stuff for thi
 - [x] Version 2 of gantt chart
 - [x] Version 3 of gantt chart
 - [x] Gantt chart revisions and explanations
-- [ ] Trial multiple components
+- [x] Trial multiple components
 - [ ] Stakeholder feedback and improvements
 - [ ] Usability and improvement
 - [ ] Relevant implications - How have you addressed them?
