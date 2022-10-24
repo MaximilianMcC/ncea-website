@@ -122,3 +122,12 @@ Here is the second gantt chart iteration. I created this one kind of in the midd
 ### **Third iteration**
 Here is the third and final iteration of my gantt chart. This one has the correct times for the events, and I have decided to keep the time for responsive design for 1 hour.
 ![Third gantt chart](https://raw.githubusercontent.com/MaximilianMcC/ncea-website/main/other/GanttChart3.png)
+
+# Component Trialing
+Below is a table showing the different components that I trialed when making my website. Trialing is when you look at possible solutions of a problem, then select the best one that works for your specific needs.
+| **Trial**  | **Thing that I'm trialing** | **First trial** | **Second trial** | **Final result** |
+|:----------:|:---------------------------:|:---------------:|:----------------:|:----------------:|
+| 1          | Play and pause audio icons | Just having normal text can be boring and isn't really the standard. ![Trialing evidence 1](https://raw.githubusercontent.com/MaximilianMcC/ncea-website/main/other/Trial1%201.png) | Using these icons may look good, but it's really bad practice. For example someone could be on a device that hasn't got those characters. ![Trialing evidence 1](https://raw.githubusercontent.com/MaximilianMcC/ncea-website/main/other/Trial1%202.png) | fa icons fit in with my UI. They were quick and easy to integrate using a CDN ![Trialing evidence 1](https://raw.githubusercontent.com/MaximilianMcC/ncea-website/main/other/Trial1%203.png) | 
+<!-- | 2          | Generate events programmatically |
+| 3          | Google Maps embed from an address. | 
+| 4          | Make content stack when viewing on smaller screens | -->
