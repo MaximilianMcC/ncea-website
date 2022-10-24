@@ -21,8 +21,8 @@ Everything that's in the `other` directory is just screenshots and stuff for thi
 - [x] Web design tools - Which and why?
 - [x] Site broken down into components/tasks
 - [x] Version 1 of gantt chart
-- [ ] Version 2 of gantt chart
-- [ ] Version 3 of gantt chart
+- [x] Version 2 of gantt chart
+- [x] Version 3 of gantt chart
 - [ ] Gantt chart revisions and explanations
 - [ ] Trial multiple components
 - [ ] Stakeholder feedback and improvements
@@ -102,10 +102,9 @@ Here is a table showing the pros and cons of different IDEs.
 - [x] Make events in JS
 - [x] Make everything responsive
 
-# First gantt chart iteration
-Here is my first gantt chart iteration. This was made before I started to make the website. I split everything up into components like the ones above and I allocated one hour of time to each "section". I knew that I would not use the entire hour for many things, but just incase there was some problems I allocated an entire hour.
-
-When you look at the gantt chart then you will see some different colors. The table below will explain what each color is.
+# Gantt charts
+### **Information**
+These gantt charts say when I will be working on the project. I will be creating multiple iterations of them so that I can keep up to date. When you look at the gantt chart then you will see some different colors. The table below will explain what each color is.
 | **Color**  | **Thing** |
 |:----------:|:---------:|
 | None | Break/nothing |
@@ -113,4 +112,14 @@ When you look at the gantt chart then you will see some different colors. The ta
 | Pink | SCSS |
 | Yellow | JS |
 
-![First gantt chart](https://github.com/MaximilianMcC/ncea-website/blob/main/other/GanttChart1.png?raw=true)
+### **First iteration**
+Here is my first gantt chart iteration. This was made before I started to make the website. I split everything up into components like the ones above and I allocated one hour of time to each "section". I knew that I would not use the entire hour for many things, but just incase there was some problems I allocated an entire hour.
+![First gantt chart](https://raw.githubusercontent.com/MaximilianMcC/ncea-website/main/other/GanttChart1.png)
+
+### **Second iteration**
+Here is the second gantt chart iteration. I created this one kind of in the middle as I had started to create the website. In this version I added in breaks that I took, and put in the correct times that I spent so far. I kept the events at one hour as I thought it would be complicated because of having JS and Google Maps integration. I also pushed the responsive part out to the next day.
+![Second gantt chart](https://raw.githubusercontent.com/MaximilianMcC/ncea-website/main/other/GanttChart2.png)
+
+### **Third iteration**
+Here is the third and final iteration of my gantt chart. This one has the correct times for the events, and I have decided to keep the time for responsive design for 1 hour.
+![Third gantt chart](https://raw.githubusercontent.com/MaximilianMcC/ncea-website/main/other/GanttChart3.png)
