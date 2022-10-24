@@ -25,7 +25,7 @@ Everything that's in the `other` directory is just screenshots and stuff for thi
 - [x] Version 3 of gantt chart
 - [x] Gantt chart revisions and explanations
 - [x] Trial multiple components
-- [ ] Stakeholder feedback and improvements
+- [x] Stakeholder feedback and improvements
 - [ ] Usability and improvement
 - [ ] Relevant implications - How have you addressed them?
 - [ ] Code validation for `index.html`
@@ -137,3 +137,4 @@ After each "section" of my gantt chart had been completed I showed my client wha
 |:-------------:|:---------------:|:-----------------------------:|
 | "The events currently look plain. Can you try and add something to them that will make it match the rest of the website?" | I added a border to the side of the events. I used the websites orange theme color to maintain consistency. | ![Improvement](https://raw.githubusercontent.com/MaximilianMcC/ncea-website/main/other/Feedback1.png) |
 | "I think that the audio part looks like I can skip through the song. Can you please try and make it just a play button or something similar?" | I removed the volume slider functionality and replaced it with a large play/pause button instead. | ![Improvement](https://raw.githubusercontent.com/MaximilianMcC/ncea-website/main/other/Feedback2.png) |
+| "Can you make it so that when you put your mouse over the buttons they change color or something? Sometimes I can't tell if I'm about to press it or not" | I made a hover event on all of the links and buttons, then darkened the background color | *(My mouse is over the left button in the screenshot)* ![Improvement](https://raw.githubusercontent.com/MaximilianMcC/ncea-website/main/other/Feedback3.png) |
