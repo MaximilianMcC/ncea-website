@@ -136,7 +136,7 @@ Below is a table showing the different components that I trialed when making my 
 Below is a table showing some of the different components that I tested when making my website. Testing is when you check for if a feature that you have implemented works as expected without any problems.
 | **Test** | **Thing that I'm testing** | **First test** | **Second/Final test** |
 |:--------:|:--------------------------:|:--------------:|:---------------------:|
-| 1        | All content fits nicely on the screen with no overflow | | ![Testing evidence 1](https://raw.githubusercontent.com/MaximilianMcC/ncea-website/main/other/Testing1.png) ![Testing evidence 1](https://raw.githubusercontent.com/MaximilianMcC/ncea-website/main/other/Testing2.png) |
+| 1        | All content fits nicely on the screen with no overflow | | ![Testing evidence 1](https://raw.githubusercontent.com/MaximilianMcC/ncea-website/main/other/Testing1%201.png) ![Testing evidence 1](https://raw.githubusercontent.com/MaximilianMcC/ncea-website/main/other/Testing1%202.png) ![Testing evidence 1](https://raw.githubusercontent.com/MaximilianMcC/ncea-website/main/other/Testing1%203.png) ![Testing evidence 1](https://raw.githubusercontent.com/MaximilianMcC/ncea-website/main/other/Testing1%204.png)|
 
 # Stakeholder feedback and improvements
 After each "section" of my gantt chart had been completed I showed my client what the website was currently looking like. Together we discussed things that they liked, and some things that they didn't like. Here is a table with all the feedback, and the improvements that I made
