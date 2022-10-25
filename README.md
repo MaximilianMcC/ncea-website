@@ -157,3 +157,29 @@ All code validation is done by inserting the GitHub deployment link into [This w
 
 ### **Events page code validation**
 There was nothing wrong with the events page. All code is correct.
+
+
+# Final Evaluation
+Throughout this project I used an iterative process to help me both design and develop my client's website. I was guided by the wire-frames and mockups that I created with help from my client in the first part of this project. I picked out different tools and resources that would be able to help me create my website to the best of my abilities. To begin my project I created a new GitHub Repo to store all of my code and written work on. I chose GitHub as it allows me to work on my website where ever I am. All I need to do is clone the project, then I can commit and push my new changes. I then started to create my website and collect feedback, trialing, and testing data so that I could reach an outcome that the client is satisfied with.
+
+I began with adding boilerplate code. I didn't bother adding this to the gantt chart as it only look a few minutes. The boilerplate had everything that I needed to start making my website. Here is a tree of the boilerplate:
+```
+root/
+├─ assets/
+│  ├─ img/
+│
+├─ styles/
+│  ├─ style.scss
+│
+├─ index.html
+├─ script.js
+```
+Later on in the process I did stuff such as add and rename files. To help be understand what I was to be doing I broke my website down into a todo list of components, then I created a gantt chart to display my progress and keep on track. The gantt chart helped me stick to my time frame and get everything completed. I made many different iterations of my gantt chart. Each iteration improved upon the last to make the most accurate chart. I gave the GitHub repo link to my client so that they could view the GitHub Pages deployment and compare it with my gantt chart to make sure I was on track.
+
+As I began coding my website I recorded some testing and trialing data so that I could demonstrate my iterative skills. This was helpful because if I was to run into the problem again I would need to re-invent the wheel, but with the testing and trialing data I can quickly diagnose the issue and continue making the site. When I was making the website I very carefully followed my mockups.
+
+While I was making my website I got occasional feedback from the client. One of the features that they wanted me to change was removing the volume slider on the music player. I took their feedback and removed the slider and we both agree that it makes the site look much better as it fits in more with the general style of the site. When I was gathering user feedback then I asked some of my friends. They helped me figure out what parts of the website needed editing.
+
+When I was nearing the completion of my website I incorporated responsive design so that no matter what device and screen size your are viewing the website on it will look good. I designed the site in a kind of mobile-first way so that I only needed to add one breakpoint in my SCSS. One of my final steps was to run all of my code through a HTML validator to check for errors. In future I will installer a linter into my IDE, Visual Studio Code, to do this process automatically. I was lucky and didn't get any unexpected error when validating my code.
+
+By using an iterative design and development process I could create a website that my client is satisfied with. 
