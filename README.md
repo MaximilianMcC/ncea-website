@@ -29,8 +29,8 @@ Everything that's in the `other` directory is just screenshots and stuff for thi
 - [x] Stakeholder feedback and improvements
 - [ ] Usability and improvement
 - [ ] Relevant implications - How have you addressed them?
-- [ ] Code validation for `index.html`
-- [ ] Code validation for `events.html`
+- [x] Code validation for `index.html`
+- [x] Code validation for `events.html`
 - [ ] Final evaluation - Say how information from the planning, testing, and trialing of components helped develop a high quality outcome
 
 
@@ -148,4 +148,13 @@ After each "section" of my gantt chart had been completed I showed my client wha
 | "I think that the audio part looks like I can skip through the song. Can you please try and make it just a play button or something similar?" | I removed the volume slider functionality and replaced it with a large play/pause button instead. | ![Before](https://raw.githubusercontent.com/MaximilianMcC/ncea-website/main/other/Feedback2%201.png) | ![After](https://raw.githubusercontent.com/MaximilianMcC/ncea-website/main/other/Feedback2%202.png) |
 | "Can you make it so that when you put your mouse over the buttons they change color or something? Sometimes I can't tell if I'm about to press it or not." | I made a hover event on all of the links and buttons, then darkened the background color. | ![Before](https://raw.githubusercontent.com/MaximilianMcC/ncea-website/main/other/Feedback3%201.png) | *(My mouse is over the left button in the screenshot)* ![After](https://raw.githubusercontent.com/MaximilianMcC/ncea-website/main/other/Feedback3%202.png) |
 
-# Usability and improvement
+# Code validation
+All code validation is done by inserting the GitHub deployment link into [This website](https://validator.w3.org/)
+
+### **Homepage code validation**
+| **Results** | **Justification** |
+|:-----------:|:-----------------:|
+| **Error:** Attribute `state` not allowed on element `button` at this point. | To make the custom audio player I use this custom attribute to tell if the audio is playing or not. |
+
+### **Events page code validation**
+There was nothing wrong with the events page. All code is correct.
