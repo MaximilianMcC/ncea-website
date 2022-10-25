@@ -25,6 +25,7 @@ Everything that's in the `other` directory is just screenshots and stuff for thi
 - [x] Version 3 of gantt chart
 - [x] Gantt chart revisions and explanations
 - [x] Trial multiple components
+- [x] Test multiple components
 - [x] Stakeholder feedback and improvements
 - [ ] Usability and improvement
 - [ ] Relevant implications - How have you addressed them?
@@ -130,6 +131,12 @@ Below is a table showing the different components that I trialed when making my 
 | 1          | Play and pause audio icons | Just having normal text can be boring and isn't really the standard. ![Trialing evidence 1](https://raw.githubusercontent.com/MaximilianMcC/ncea-website/main/other/Trial1%201.png) | Using these icons may look good, but it's really bad practice. For example someone could be on a device that hasn't got those characters. ![Trialing evidence 1](https://raw.githubusercontent.com/MaximilianMcC/ncea-website/main/other/Trial1%202.png) | fa icons fit in with my UI. They were quick and easy to integrate using a CDN ![Trialing evidence 1](https://raw.githubusercontent.com/MaximilianMcC/ncea-website/main/other/Trial1%203.png) | 
 | 2          | Generate events  | Hand writing in all of the events as HTML is time consuming and can't be automated. ![Trialing evidence 2](https://raw.githubusercontent.com/MaximilianMcC/ncea-website/main/other/Trial2%201.png) | | Generating the events from JS is much better as the object can be sent over as JSON from a server ![Trialing evidence 2](https://raw.githubusercontent.com/MaximilianMcC/ncea-website/main/other/Trial2%202.png) |
 | 4          | Make content stack when viewing on smaller screens | | | I'm using a css media breakpoint to change the code at specific screen sizes. It would have been better for me to use a mobile-first approach to the website, however I have already made the site. ![Trialing evidence 3](https://raw.githubusercontent.com/MaximilianMcC/ncea-website/main/other/Trial3%201.png) |
+
+# Component Testing
+Below is a table showing some of the different components that I tested when making my website. Testing is when you check for if a feature that you have implemented works as expected without any problems.
+| **Test** | **Thing that I'm testing** | **First test** | **Second/Final test** |
+|:--------:|:--------------------------:|:--------------:|:---------------------:|
+| 1        | All content fits nicely on the screen with no overflow | | ![Testing evidence 1](https://raw.githubusercontent.com/MaximilianMcC/ncea-website/main/other/Testing1.png) ![Testing evidence 1](https://raw.githubusercontent.com/MaximilianMcC/ncea-website/main/other/Testing2.png) |
 
 # Stakeholder feedback and improvements
 After each "section" of my gantt chart had been completed I showed my client what the website was currently looking like. Together we discussed things that they liked, and some things that they didn't like. Here is a table with all the feedback, and the improvements that I made
