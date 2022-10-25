@@ -26,11 +26,11 @@ Everything that's in the `other` directory is just screenshots and stuff for thi
 - [x] Gantt chart revisions and explanations
 - [x] Trial multiple components
 - [x] Test multiple components
+- [x] Usability
 - [x] Stakeholder feedback and improvements
-- [x] Relevant implications
 - [x] Code validation for `index.html`
 - [x] Code validation for `events.html`
-- [ ] Final evaluation
+- [x] Final evaluation
 
 
 
@@ -39,11 +39,11 @@ Iterative improvement is when someone is constantly documenting and recording th
 
 # Relevant implications
 ### **Legal**
-Legal implications state who owns a particular piece of media and how that media can be interacted with by people who don’t own the media. One way of figuring out if media is legal is to use copyrighting. If something is copyrighted, then there are specific rules about who can use it. Permissions may need to be given, or the user could potentially be arrested or fined. In the case of this website everything is copyright free, except for the media used in testing. If media is being used for educational purposes, it is allowed to be used without direct consent from the respected owner.
+Legal implications state who owns a particular piece of media and how that media can be interacted with by people who don’t own the media. One way of figuring out if media is legal is to use copyrighting. If something is copyrighted, then there are specific rules about who can use it. Permissions may need to be given, or the user could potentially be arrested or fined. In the case of this website everything is copyright free, except for the media used in testing. If media is being used for educational purposes, it is allowed to be used without direct consent from the respected owner. I have addressed these relevant implications by not using any copyright material during the development process of my website. In the future when I start adding the text and images to the website then my client may purchase the rights to certain media.
 
 
 ### **Aesthetics**
-This website has been designed with aesthetics in mind. Aesthetics implications are the look and feel of the website. The design was created from the client looking at many different sites and picking out certain elements that they liked the look of. For example, they might like the font that was used in a site or the layout of images. With each change I made I asked the client if they were happy and what changes were needed to be made. The overall design of the website is very clean and simple. There is frequent use of dark colors and small clusters of the eye-catching orange accent colors. SVG waves are used to make the user feel more relaxed and calmer. The website has been designed so that any person of any age can confidently use the site without any issues.
+This website has been designed with aesthetics in mind. Aesthetics implications are the look and feel of the website. The design was created from the client looking at many different sites and picking out certain elements that they liked the look of. For example, they might like the font that was used in a site or the layout of images. With each change I made I asked the client if they were happy and what changes were needed to be made. The overall design of the website is very clean and simple. There is frequent use of dark colors and small clusters of the eye-catching orange accent colors. SVG waves are used to make the user feel more relaxed and calmer. The website has been designed so that any person of any age can confidently use the site without any issues. I have addressed these relevant implications by following my mockups closely to match the style that my client has asked for.
 
 
 # Web Design Tools
@@ -158,6 +158,8 @@ All code validation is done by inserting the GitHub deployment link into [This w
 ### **Events page code validation**
 There was nothing wrong with the events page. All code is correct.
 
+# Usability
+To make sure the website is ready for real world use I asked some of my friends and family to use it for a few minutes. I then asked them to all give me some feedback about something that they did like, and some things that they didn't like then I ran those over with the client and asked them if they had anything that needed to be added. They said that they are currently happy with the website and until it gets more content there is no need to adding other features.
 
 # Final Evaluation
 Throughout this project I used an iterative process to help me both design and develop my client's website. I was guided by the wire-frames and mockups that I created with help from my client in the first part of this project. I picked out different tools and resources that would be able to help me create my website to the best of my abilities. To begin my project I created a new GitHub Repo to store all of my code and written work on. I chose GitHub as it allows me to work on my website where ever I am. All I need to do is clone the project, then I can commit and push my new changes. I then started to create my website and collect feedback, trialing, and testing data so that I could reach an outcome that the client is satisfied with.
